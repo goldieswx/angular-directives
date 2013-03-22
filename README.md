@@ -35,7 +35,7 @@ angular.module('yourAppName')
 ```
 <div editable default-mode="0" template-url="views/editables/text" ng-model="item"></div>
 ```	
-Were "views/editables/text" 
+Where "views/editables/text" 
 
 ```
 <div>
