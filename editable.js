@@ -21,4 +21,12 @@ angular.module('tuioApp')
     template : '<div ng-include="getTpl()"></div>',
     replace: true
   }
-});
+})
+  .run(['$rootScope',function (scope) {
+    angular.element(document).click(function(){ 
+	scope.$broadcast('event:outOfFocus');
+    });	
+  }])
+ ;
+
+
