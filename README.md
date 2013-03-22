@@ -10,7 +10,7 @@ Provides a simple directive for "edit in place" models
 ###Getting started :
 
 - Insert editable.js in your page dependencies
-- In your a global Controller add the following
+- In your global Controller add the following
 	
 ```
     $(document).click(function(ev){
@@ -32,6 +32,6 @@ angular.module('yourAppName')
 
 ###Usage
 
-	<div editable default-mode="0" template-url="views/	editables/text" ng-model="item"></div>
+	<div editable default-mode="0" template-url="views/editables/text" ng-model="item"></div>
 	
 
