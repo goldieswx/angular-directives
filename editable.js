@@ -12,7 +12,6 @@ angular.module('tuioApp')
 	  	scope.$apply();
 	  });
 	  $(element).click(function(e){
-	  	console.log(scope.tplUrl);
 	  	e.stopPropagation();
 	  });
 	  scope.getTpl = function(){
