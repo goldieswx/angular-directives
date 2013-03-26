@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('paged')
+angular.module('paged',['ui.bootstrap'])
   .filter('pages',function(){
     return function(a,pager) {
       if (typeof a ==='undefined') return []; 
